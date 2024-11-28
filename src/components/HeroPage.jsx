@@ -74,7 +74,7 @@ const HeroPage = () => {
                 {card.icon}
               </div>
               <h3>{card.title}</h3>
-              <p>{card.description}</p>
+              <p >{card.description}</p>
               <button className="arrow-button" aria-label={`Learn more about ${card.title}`}>
                 <ChevronRight size={16} />
               </button>

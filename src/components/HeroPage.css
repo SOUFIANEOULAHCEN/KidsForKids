@@ -49,7 +49,7 @@
 
 .title {
   color: var(--second-color);
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 900;
   text-shadow: 0 0 5px #adf3ad3f, 0 0 10px #32cd3237, 0 0 20px #32cd3244, 0 0 40px #00ff002f, 0 0 80px #00ff0041;
 }
@@ -100,7 +100,7 @@
 
 .feature-card {
   padding: 40px 30px;
-  color: white;
+  color: var(--white-text-color);
   position: relative;
   border-radius: 15px;
 }
@@ -124,7 +124,9 @@
 .icon-wrapper {
   margin-bottom: 20px;
 }
-
+.feature-card  p {
+  color: var(--white-text-color) !important;
+}
 .feature-card h3 {
   font-size: 1.25rem;
   font-weight: bold;
