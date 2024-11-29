@@ -1,8 +1,8 @@
 .services-container {
     font-family: 'Arial', sans-serif;
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
-    padding: 5px 20px;
+    padding: 5px 0px;
   }
   
   /* What We Offer Section */

@@ -42,13 +42,15 @@ const HeroPage = () => {
 
   return (
     <div className="hero-container">
+      
       <div className="hero-section">
         <div className="slideshow">
           {slides.map((slide, index) => (
+            
             <div
               key={index}
               className={`slide ${index === currentSlide ? "active" : ""}`}
-              style={{ backgroundImage: `url(${slide})` }}
+              style={{ '--bg-image': `url(${slide})` }}
             />
           ))}
           <div className="content">
